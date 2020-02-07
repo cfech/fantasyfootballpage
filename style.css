@@ -8,9 +8,20 @@
     font-weight: bolder;
 }
 table{
-    font-size: 34px;
+    font-size: 1.8vw;
     text-align: center;
-    color: 
+    color: azure;
+}
+li{
+    font-size: 1vw;
+}
+p{
+    color: azure;
+}
+h1{
+    color: azure;
+    font-weight: 800;
+    font-size: 34px;
 }
 footer {
     background-color: green;
@@ -32,4 +43,27 @@ font-size: 20px;
 }
 .playerList{
     font-size: 22px;
+}
+body{
+    background-color: #222222;
+}
+@media screen and (max-width: 756px) {
+    main {
+        width: 100%;
+        height: auto;
+        float: none
+    }
+    /* .gyphyEmbed{
+        height: 90px;
+        width: 60px;
+    } */
+
+}
+
+.card{
+    background-color:#6666;
+}
+.lineBreak{
+    background-color: green;
+    height: 2px;
 }
