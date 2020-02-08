@@ -8,7 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/slate/bootstrap.min.css">
    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">
+
+
+ 
    
     <link rel="stylesheet" href="style.css">
     <title>Fantasy Stats</title>
@@ -18,25 +22,54 @@
 <body>
     <header>
         <!-- Nav Bar -->
-        <nav class="navbar success myNav">
+        <nav class="navbar navbar-expand-lg myNav">
+            <a class="navbar-brand" href="#">308</a>
+            <button class="navbar-toggler myBTN" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">-</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="2ndpage.html">Sacko Formula</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+
+
+
+
+
+
+
+        <nav class="myNav2">
             <div class="container-fluid-nav text-center">
-                <span class="navbar-brand h1 hello">308</span>
+                <div class="container1 col-xs-12 col-lg-10 offset-sm-1">
+                    <h1 class="welcome" style="color:black;" id="main"> </h1>
+                    <h2 id="countdown"></h2>
+                    <h3 ></h2>
+                  </div>
+        
             </div>
 
         </nav>
 
     </header>
     <!-- Main Container of Page -->
-    <main class="container col-lg-12">
+    <main class="container col-sm-12">
 
-        <div class="container">
-            <h1 class="welcome">Fantasy Champions Andreas (2017) Alec (2018) Connor (2019)</h1>
-            <h2 id="countdown"></h1>
-            <h3 id="main"></h2>
-          </div>
+     <!--Scroll-->
+       
 
           <section class="row">
-            <div class="col-lg-8 col-xs-10 offset-sm-1 mt-4 card">
+            <div class="col-lg-10 col-sm-11 offset-sm-1 col-xs-12 offset-xs-0 mt-4 card">
                 <div class="card-body text-center myTable">
                     <h1>2019</h1>
                     <hr class="lineBreak">
@@ -203,7 +236,7 @@
         </section>
         
         <section class="row">
-            <div class="col-lg-8 offset-sm-1 col-xs-10 mt-4 card">
+            <div class="col-lg-10 col-sm-11 offset-sm-1 col-xs-12 offset-xs-0 mt-4 card">
                 <div class="card-body text-center myTable">
                     <h1>2018</h1>
                     <hr class="lineBreak">
@@ -363,7 +396,7 @@
             </div>
         </section>
         <section class="row">
-            <div class="col-lg-8 offset-sm-1 col-xs-10 mt-4 card">
+            <div class="col-lg-10 col-sm-11 offset-sm-1 col-xs-12 offset-xs-0 mt-4 card">
                 <div class="card-body text-center">
                     <h1>2017</h1>
                     <hr class="lineBreak">
@@ -376,7 +409,7 @@
 
                         </tr>
                         <tr>
-                            <td>Andeas</td>
+                            <td>Andreas</td>
                             <td>Champion</td>
 
                         </tr>
@@ -439,6 +472,7 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
         <script type="text/javascript" src="javascript.js"></script>
+ 
 </body>
 
 </html>

@@ -1,9 +1,18 @@
  .myNav{
     background-color: green;
-    text-align: center;
+
+}
+.myNav2 {
+    background-color: whitesmoke;
+}
+.myBTN {
+    background-color: whitesmoke;
+}
+.nav-link{
+    font-size: 20px;
 }
 .hello{
-    color: white !important;
+    color: white;
     font-size: 28px;
     font-weight: bolder;
 }
@@ -37,8 +46,10 @@ footer {
 }
 
 .asterisk{
-font-size: 20px;
+font-size: 10px;
 }
+
+
 .playerList{
     font-size: 22px;
 }
@@ -60,8 +71,47 @@ body{
 
 .card{
     background-color:#6666;
+    overflow: auto;
 }
 .lineBreak{
     background-color: green;
     height: 2px;
+}
+
+.modal-title{
+    color: blue;
+    text-align: center;
+}
+.modal-content {
+    background-color: grey;
+ }
+ .ticker{
+     color: blue
+ }
+
+ a{
+     color: white;
+
+ }
+ .myTable1{
+     font-size: 20px;
+ 
+ }
+ .tableHead{
+     font-size: 15px;
+     padding: 10px 10px;
+ }
+.tableP{
+    border: dotted;
+    border-width: .5px;
+}
+.rules{
+    color: white;
+}
+.explanation{
+    text-align: center;
+}
+.ruleList{
+    text-align: center
+    ;
 }
