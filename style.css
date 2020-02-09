@@ -1,5 +1,5 @@
  .myNav{
-    background-color: green;
+    background-color:#12343b;
 
 }
 .myNav2 {
@@ -10,7 +10,14 @@
 }
 .nav-link{
     font-size: 20px;
+    background-color: #478559;
+    margin: 10px 10px ;
+    border-radius: 5px;
+
+    padding-top: 5px;
+    
 }
+
 .hello{
     color: white;
     font-size: 28px;
@@ -56,18 +63,18 @@ font-size: 10px;
 body{
     background-color: #222222;
 }
-@media screen and (max-width: 756px) {
+/* @media screen and (max-width: 756px) {
     main {
         width: 100%;
         height: auto;
         float: none
     }
-    /* .gyphyEmbed{
+    .gyphyEmbed{
         height: 90px;
         width: 60px;
-    } */
+    }
 
-}
+} */
 
 .card{
     background-color:#6666;
@@ -105,13 +112,95 @@ body{
     border: dotted;
     border-width: .5px;
 }
+.tableS{
+    border: solid;
+    border-width: .5px;
+}
 .rules{
     color: white;
 }
 .explanation{
     text-align: center;
+    text-decoration: underline;
+    font-weight: 700;
 }
-.ruleList{
-    text-align: center
-    ;
+.rulesList{
+    
+    border: solid;
+    border-width: 5px;
+    border-color: steelblue;
+    background-color: white;
+    color: black;
+}
+.liPF{
+    padding-right: 12px;
+}
+.liM{
+    padding-right: 8px;
+}
+.liR{
+padding-left: 8px;
+}
+.test1{
+    border: solid;
+    border-width: 5px;
+    border-color: steelblue;
+    background-color: white;
+    color: black;
+}
+.test2{
+    background-color: blue;
+}
+.test4, .test5,.test3{
+    border: dotted;
+    border-color: black;
+    border-width: 3px;
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+/* .hR2{
+    height: 6px;
+    background-color: blue;
+} */
+.currentRuleH1{
+     font-weight: normal ;
+    color: black;
+}
+.rulesTitle{
+    font-size: 25px;
+}
+.rulesTitleHR{
+    background-color: black;
+}
+.tablePR{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: solid;
+    border-width: .5px;
+    padding: 8px;
+}
+.tablePRr{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: solid;
+    border-right: solid;
+    border-width: .5px;
+
+}
+.tableHR{
+    font-size: 16px;
+    color: black;
+    padding-left: 0px;
+    border-bottom: solid;
+    border-width: .5px;
+}
+.tableHR2{
+    font-size: 16px;
+    color: black;
+    padding-left: 0px;
+    border-bottom: solid;
+    border-width: .5px;
+
 }
