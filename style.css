@@ -17,6 +17,10 @@
     padding-top: 5px;
     
 }
+.nav-link:hover{
+    background-color: blue;
+    color: white;
+}
 
 .hello{
     color: white;
