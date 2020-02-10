@@ -27,7 +27,6 @@ function speedRead() {
     } 
   }, millisecondsPerWord);
 }
-
 speedRead()
 
 

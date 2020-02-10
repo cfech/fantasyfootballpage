@@ -28,9 +28,9 @@ table{
     text-align: center;
     color: azure;
 }
-li{
+/* li{
     font-size: 1vw;
-}
+} */
 p{
     color: azure;
 }
@@ -58,7 +58,7 @@ font-size: 10px;
 
 
 .playerList{
-    font-size: 22px;
+    font-size: 1vw;
 }
 body{
     background-color: #222222;
@@ -104,6 +104,9 @@ body{
      font-size: 20px;
  
  }
+ .homeList{
+     font-size: 1vw;
+ }
  .tableHead{
      font-size: 15px;
      padding: 10px 10px;
@@ -131,6 +134,7 @@ body{
     border-color: steelblue;
     background-color: white;
     color: black;
+    padding-right: 5px;
 }
 .liPF{
     padding-right: 12px;
@@ -149,7 +153,11 @@ padding-left: 8px;
     color: black;
 }
 .test2{
-    background-color: blue;
+    border: solid;
+    border-width: 5px;
+    border-color: steelblue;
+    background-color: white;
+    color: black;
 }
 .test4, .test5,.test3{
     border: dotted;
@@ -165,6 +173,7 @@ padding-left: 8px;
 .currentRuleH1{
      font-weight: normal ;
     color: black;
+    height: auto;
 }
 .rulesTitle{
     font-size: 25px;
@@ -203,4 +212,21 @@ padding-left: 8px;
     border-bottom: solid;
     border-width: .5px;
 
+}
+.rulesToBeAddressedHR{
+border-width: 2px;
+background-color: black;
+}
+.RulesToBeList{
+  font-size: 15px;
+}
+.collusionBL{
+    color: black;
+}
+.collusionBLH{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-weight: normal;
+    text-decoration: underline;
 }
